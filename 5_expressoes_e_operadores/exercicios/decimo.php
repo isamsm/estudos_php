@@ -5,24 +5,24 @@
     // Matheus é diferente de Pedro
     // 12 é menor ou igual a 11
 
-    $n1 = 5;
-    $n2 = 2;
-    $nome1 = 'Matheus';
-    $nome2 = 'Pedro';
-    $n3 = 12;
-    $n4 = 11;
+    $first_num = 5;
+    $second_num = 2;
+    $first_name = 'Matheus';
+    $second_name = 'Pedro';
+    $third_num = 12;
+    $fourth_num = 11;
 
-    if($n1 > $n2) {
+    if($first_num > $second_num) {
         echo '5 é maior que 2';
     }
 
     echo '<br>';
 
-    if($nome1 != $nome2) {
+    if($first_name != $second_name) {
         echo 'Matheus é diferente de Pedro';
     }
 
-    if($n3 <= $n4) {
+    if($third_num <= $fourth_num) {
         echo '12 é menor ou igual a 11';
     }
 

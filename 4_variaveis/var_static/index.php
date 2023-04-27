@@ -1,25 +1,25 @@
 <?php
 
-    function teste() {
+    function test() {
         $n = 0;
         $n++;
 
         echo "$n <br>";
     }
 
-    teste();
-    teste();
-    teste();
+    test();
+    test();
+    test();
 
-    function testeStatic() {
+    function testStatic() {
         static $n = 0;
         $n++;
 
         echo "$n <br>";
     }
 
-    testeStatic();
-    testeStatic();
-    testeStatic();
+    testStatic();
+    testStatic();
+    testStatic();
 
 ?>

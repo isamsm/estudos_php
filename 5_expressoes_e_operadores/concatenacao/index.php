@@ -2,19 +2,19 @@
 
     //Concatenar. Juntas dois ou mais valores, sendo textos e/ou números
 
-    $nome = 'Isa';
-    $sobrenome = 'Marques';
+    $name = 'Isa';
+    $surname = 'Marques';
 
-    echo 'Olá ' . $nome . ', são ' . 11 . ' horas da manhã';
+    echo 'Olá ' . $name . ', são ' . 11 . ' horas da manhã';
     echo '<br>';
-    echo $nome . ' ' . $sobrenome;
+    echo $name . ' ' . $surname;
     echo '<br>';
 
-    $marca = 'acer';
-    $placa = 'nvidia';
-    $processador = 'i5';
-    $preco = 5000;
+    $brand = 'acer';
+    $graphics = 'nvidia';
+    $engine = 'i5';
+    $price = 5000;
 
-    echo 'Eu tenho um computador da marca ' . $marca . ' com uma placa da ' . $placa . ' com um processador ' . $processador . ' em que eu paguei ' . $preco . ' reais';
+    echo 'Eu tenho um computador da marca ' . $brand . ' com uma placa da ' . $graphics . ' com um processador ' . $engine . ' em que eu paguei ' . $price . ' reais';
 
 ?>

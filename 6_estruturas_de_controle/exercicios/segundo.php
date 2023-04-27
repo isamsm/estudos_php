@@ -1,36 +1,40 @@
 <?php
 
-    //Complementação do 22, adicionar um else para pessoas menor de idade.
+    //Crie variáveis com tipos de dado diferentes. Cheque se variável é inteiro. Se for, mensagem confirmando tipo de dado. Se não for, outra mensagem. 
 
-    $primeira_pessoa = 'Julia';
-    $primeira_idade = 15;
-    $segunda_pessoa = 'Larissa';
-    $segunda_idade = 18;
-    $terceira_pessoa = 'Pablo';
-    $terceira_idade = 39;
+    $string = 'É uma string';
+    $n = 2;
+    $float = 2.55;
+    $bool = true;
 
-    $maioridade = 18;
-
-    if($primeira_idade >= $maioridade) {
-        echo $primeira_pessoa, ' é maior de idade';
+    if(is_int($string)) {
+        echo $string, ' é um inteiro';
     } else {
-        echo $primeira_pessoa, ' é menor de idade';
+        echo $string, ' não é um inteiro';
     }
 
     echo '<br>';
 
-    if($segunda_idade >= $maioridade) {
-        echo $segunda_pessoa, ' é maior de idade';
+    if(is_int($n)) {
+        echo $n, ' é um inteiro';
     } else {
-        echo $segunda_pessoa, ' é menor de idade';
+        echo $n, ' não é um inteiro';
     }
 
     echo '<br>';
 
-    if($terceira_idade >= $maioridade) {
-        echo $terceira_pessoa, ' é maior de idade';
+    if(is_int($float)) {
+        echo $float, ' é um inteiro';
     } else {
-        echo $terceira_pessoa, ' é menor de idade';
+        echo $float, ' não é um inteiro';
+    }
+
+    echo '<br>';
+
+    if(is_int($bool)) {
+        echo $bool, ' é um inteiro';
+    } else {
+        echo $bool, ' não é um inteiro';
     }
 
 ?>

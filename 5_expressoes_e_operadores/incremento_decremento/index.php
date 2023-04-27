@@ -2,12 +2,12 @@
 
     //Incremento: ++ (+1). Decremento: -- (-1)
 
-    $n1 = 1;
-    $n2 = 1;
+    $first_num = 1;
+    $second_num = 1;
 
-    $n1++;
-    $n2--;
+    $first_num++;
+    $second_num--;
 
-    echo '1 + 1 = ', $n1, '<br>'; //inc
-    echo '1 - 1 = ', $n2, '<br>' //dec
+    echo '1 + 1 = ', $first_num, '<br>'; //inc
+    echo '1 - 1 = ', $second_num, '<br>' //dec
 ?>

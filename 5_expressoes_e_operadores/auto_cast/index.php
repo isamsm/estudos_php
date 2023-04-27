@@ -12,9 +12,9 @@
         echo 'o resultado de 5 . 5 é uma string <br>';
     }
 
-    $nome = 'Isa';
-    $sobrenome = 'Marques';
-    $nomeCompleto = $nome . ' ' . $sobrenome;  //concatenar duas variáveis com um espaço entre elas
+    $name = 'Isa';
+    $surname = 'Marques';
+    $fullName = $name . ' ' . $surname;  //concatenar duas variáveis com um espaço entre elas
 
-    echo $nomeCompleto
+    echo $fullName
 ?>

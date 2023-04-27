@@ -2,13 +2,13 @@
 
     //operações aritimeticas. faça uma subtração, uma divisão e uma multiplicação na mesma operação
 
-    $n1 = 5;
-    $n2 = 20;
-    $n3 = -30;
-    $total = $n3 - $n1 * $n2 / $n1;
-    $total2 = ($n3 - $n1) * $n2 / $n1;
+    $first_num = 5;
+    $second_num = 20;
+    $third_num = -30;
+    $total = $third_num - $first_num * $second_num / $first_num;
+    $second_total = ($third_num - $first_num) * $second_num / $first_num;
 
     echo '-30 -5 * 20 / 5 = ', $total, '<br>';
-    echo '(-30 -5) * 20 / 5= ', $total2, '<br>';
+    echo '(-30 -5) * 20 / 5= ', $second_total, '<br>';
 
 ?>

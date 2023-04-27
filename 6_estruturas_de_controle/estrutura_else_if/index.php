@@ -2,11 +2,11 @@
 
     //Else if - Se if for falso. Pode ter um else depois dele
 
-    $nome = 'Isa';
+    $name = 'Isa';
 
-    if($nome === 'Maria') {
+    if($name === 'Maria') {
         echo 'O nome é Maria';
-    } else if ($nome === 'Isa') {
+    } else if ($name === 'Isa') {
         echo 'O nome é Isa'. ', entrou no else if';
     } else {
         echo 'O nome é desconhecido';

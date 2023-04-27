@@ -12,18 +12,18 @@
 
     echo '<br> <br>';
 
-    $escopofora = 'sou um escopo fora';
+    $out = 'sou um escopo fora';
 
     if(10 > 2) {
         echo '10 maior que 2, entrou no primeiro if <br>';
 
-        $escopodentro = 'sou um escopo dentro';
+        $in = 'sou um escopo dentro';
 
         if('teste' === 'test') {
             echo 'teste é idêntico a test, entra no segundo if';
         } else {
             echo 'teste é diferente de test, entrou no segundo else';
-            echo '<br> <br>' . $escopofora . ' e eu ' . $escopodentro;
+            echo '<br> <br>' . $out . ' e eu ' . $in;
         }
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-    $nome = 'Isa';
+    $name = 'Isa';
 
     for($i = 1; $i < 10; $i++) {
         if($i === 2) {
@@ -9,7 +9,7 @@
         }
 
         if($i === 4) {
-            echo "$nome <br />";
+            echo "$name <br />";
         }
 
         if($i === 8) {

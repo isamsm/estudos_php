@@ -2,7 +2,7 @@
 
     //If - Se. Checa se expressão é verdadeira
 
-    $nome = 'Isa';
+    $name = 'Isa';
 
     //Expressões verdadeiras. Entram no if
 
@@ -12,7 +12,7 @@
 
     echo '<br>';
 
-    if($nome === 'Isa') {
+    if($name === 'Isa') {
         echo 'Meu nome é Isa';
     }
 

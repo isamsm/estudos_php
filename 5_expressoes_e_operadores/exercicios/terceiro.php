@@ -2,11 +2,11 @@
 
     //Váriavel saudação, nome e sobrenome. Concatená-las
 
-    $nome = 'Isa';
-    $sobrenome = 'Marques';
-    $saudacao = 'Olá';
+    $name = 'Isa';
+    $surname = 'Marques';
+    $greetings = 'Olá';
 
-    $frase = $saudacao . ', ' . $nome . ' ' . $sobrenome;
+    $frase = $greetings . ', ' . $name . ' ' . $surname;
     echo $frase;
 
 ?>

@@ -5,15 +5,15 @@
     echo '5 + 2 / 10 = ', 5 + 2 / 10, '<br>';
     echo '(5 + 2) / 10 = ', (5 + 2) / 10, '<br>';
 
-    $n1 = 5;
-    $n2 = 2;
-    $n3 = 10;
+    $first_num = 5;
+    $second_num = 2;
+    $third_num = 10;
 
-    echo '5 + 2 / 10 = ', $n1 + $n2 / $n3, '<br>'; //dentro de vars
-    echo '(5 + 2) / 10 = ', ($n1 + $n2) / $n3, '<br>'; 
-    echo '2 + 10 / 5 = ', $n2 + $n3 / $n1, '<br>'; 
+    echo '5 + 2 / 10 = ', $first_num + $second_num / $third_num, '<br>'; //dentro de vars
+    echo '(5 + 2) / 10 = ', ($first_num + $second_num) / $third_num, '<br>'; 
+    echo '2 + 10 / 5 = ', $second_num + $third_num / $first_num, '<br>'; 
 
-    $total = $n1 * $n2 * $n3; //var total
+    $total = $first_num * $second_num * $third_num; //var total
 
     echo '5 * 2 * 10 = ', $total;
 

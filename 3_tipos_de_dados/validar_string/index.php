@@ -1,7 +1,7 @@
 <?php
 
     $string = "string";
-    $nString = 12;
+    $num = 12;
 
     if (is_string($string)) {
         echo "$string, é uma string";
@@ -11,10 +11,10 @@
 
     echo "<br>";
 
-    if (is_string($nString)) {
-        echo "$nString é uma string";
+    if (is_string($num)) {
+        echo "$num é uma string";
     } else {
-        echo "$nString não é uma string";
+        echo "$num não é uma string";
     }
 
 ?>

@@ -1,19 +1,19 @@
 <?php
 
-    function nomeFunction($nome) {
-        echo "parâmetro nome: $nome <br>";
+    function nameFunc($name) {
+        echo "parâmetro nome: $name <br>";
     }
 
-    nomeFunction('Isa');
-    nomeFunction('Lisa');
-    nomeFunction('Ana');
+    nameFunc('Isa');
+    nameFunc('Lisa');
+    nameFunc('Ana');
 
-    function somaFunction($n1, $n2) {
-        echo "parâmetro soma: $n1 + $n2 = ", $n1 + $n2, '<br>';
+    function addFunc($first_num, $second_num) {
+        echo "parâmetro soma: $first_num + $second_num = ", $first_num + $second_num, '<br>';
     }
 
-    somaFunction(50, 20);
-    somaFunction(20, 30);
-    somaFunction(80, -20);
+    addFunc(50, 20);
+    addFunc(20, 30);
+    addFunc(80, -20);
 
 ?>

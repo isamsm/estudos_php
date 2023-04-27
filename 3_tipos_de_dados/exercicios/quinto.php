@@ -2,18 +2,18 @@
 
     //array com caracteristicas de um carro. imprimir duas caracteristicas
 
-    $carro = ['cor' => 'vermelho', 'tamanho' => 'grande', 'duasPortas' => false, 'rodas' => 4];
+    $car = ['color' => 'vermelho', 'size' => 'grande', 'doubleDoors' => false, 'wheels' => 4];
 
-    $rodas = $carro['rodas'];
+    $wheels = $car['wheels'];
 
-    print_r($carro);
+    print_r($car);
 
     echo "<br>";
 
-    echo "cor do carro: $carro[cor]";
+    echo "cor do carro: $car[color]";
     echo "<br>";
-    echo "tamanho do carro: carro $carro[tamanho]";
+    echo "tamanho do carro: carro $car[size]";
     echo "<br>";
-    echo "rodas: $rodas";
+    echo "rodas: $wheels";
 
 ?>

@@ -2,29 +2,29 @@
 
     //variavel de referência valor Isa, variavel referenciada mesmo valor
 
-    $n1 = 'Isa'; 
-    $nome =& $n1; 
+    $first_name = 'Isa'; 
+    $name =& $first_name; 
 
-    echo $n1;
+    echo $first_name;
     echo '<br>';
-    echo $nome;
+    echo $name;
 
     echo '<br>';
 
     //muda o valor da variável de referência e consequentemente o da referênciada
 
-    $n1 = 'Lucia'; 
-    echo $n1;
+    $first_name = 'Lucia'; 
+    echo $first_name;
     echo '<br>';
-    echo $nome;
+    echo $name;
 
     echo '<br>';
 
     //muda o valor da variável referênciada e consequentemente o da de referência
 
-    $nome = 'Maria'; 
-    echo $n1;
+    $name = 'Maria'; 
+    echo $first_name;
     echo '<br>';
-    echo $nome;
+    echo $name;
 
 ?>

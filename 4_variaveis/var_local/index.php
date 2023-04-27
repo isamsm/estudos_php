@@ -1,23 +1,23 @@
 <?php
 
-    $n = 'Isa';
+    $name = 'Isa';
 
     function teste() {
-        $n = 'Maria';
+        $name = 'Maria';
 
-        echo "Varíavel nome local: $n <br>";
+        echo "Varíavel nome local: $name <br>";
     }
 
     teste();
 
     function teste2() {
-        $n = 'Ana';
+        $name = 'Ana';
 
-        echo "Varíavel nome local2: $n <br>";
+        echo "Varíavel nome local2: $name <br>";
     }
 
     teste2();
 
-    echo "Varíavel nome global: $n <br>";
+    echo "Varíavel nome global: $name <br>";
 
 ?>

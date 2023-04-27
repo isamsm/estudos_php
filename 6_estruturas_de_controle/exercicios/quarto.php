@@ -1,48 +1,37 @@
 <?php
 
-    //Crie varíaveis com número e outra com string. Faça uma variável checando se é numero. Se sim, multiplique por 2 dentro de outra variável. Crie outro if para checar se esse resultado é maior que 100, se for, imprima mensagem.
+    //Crie uma variável com a velocidade de um carro. If para verificar velocidade:
+    //Velocidade menor que 40 - Imprima velocidade correta
+    //Velocidade igual a 40 - Imprima para o motorista tomar cuidado
+    //Velocidade maior que 40 - Mensagem de multa
 
-    $a = 2;
-    $b = 60;
-    $string = 'string';
+    $car_speed = 40;
+    $ideal_speed = 40;
 
-    if(is_int($a)) {
-        $operacao_a = $a * 2;
+    echo 'Carro 1: <br>';
 
-        if ($operacao_a > 100) {
-            echo $operacao_a . ' é maior do que 100';
-        } else {
-            echo $operacao_a . ' é menor do que 100';
-        }
+    if($car_speed < $ideal_speed) {
+        echo 'seu carro está na velocidade certa';
+    } else if($car_speed === $ideal_speed) {
+        echo 'tome cuidado, você está quase excedendo o limite!';
     } else {
-        echo $a . ' não é um número';
+        echo 'você foi multado, sua velocidade excedeu o limite!';
     }
 
-    echo '<br>';
+    echo '<br> <br>';
 
-    if(is_int($b)) {
-        $operacao_b = $b * 2;
+    $second_car_speed = 87;
 
-        if ($operacao_b > 100) {
-            echo $operacao_b . ' é maior do que 100';
-        } else {
-            echo $operacao_b . ' é menor do que 100';
-        }
+    echo 'Carro 2: <br>';
+
+    if($second_car_speed < $ideal_speed) {
+        echo 'seu carro está na velocidade certa';
+    } else if($second_car_speed === $ideal_speed) {
+        echo 'tome cuidadom, você está quase excedendo o limite!';
     } else {
-        echo $b . ' não é um número';
+        echo 'você foi multado, sua velocidade excedeu o limite!';
     }
 
-    echo '<br>';
 
-    if(is_int($string)) {
-        $operacao_string = $string * 2;
 
-        if ($operacao_string > 100) {
-            echo $operacao_string . ' é maior do que 100';
-        } else {
-            echo $operacao_string . ' é menor do que 100';
-        }
-    } else {
-        echo $string . ' não é um número';
-    }
 ?>

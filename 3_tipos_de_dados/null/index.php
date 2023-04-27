@@ -4,23 +4,23 @@
 
     echo "<br>";
 
-    $nome = NULL;
+    $name = NULL;
 
     echo "<br>";
 
-    if (is_null($nome)) {
-        echo "o valor '$nome' é nulo";
+    if (is_null($name)) {
+        echo "o valor '$name' é nulo";
     } else {
-        echo "o valor '$nome' não é nulo";
+        echo "o valor '$name' não é nulo";
     }
 
-    $nome = "Isa";
+    $name = "Isa";
 
     echo "<br>";
 
-    if (is_null($nome)) {
-        echo "o valor '$nome' é nulo";
+    if (is_null($name)) {
+        echo "o valor '$name' é nulo";
     } else {
-        echo "o valor '$nome' não é nulo";
+        echo "o valor '$name' não é nulo";
     }
 ?>

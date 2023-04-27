@@ -1,25 +1,25 @@
 <?php
 
-    class Pessoa {
+    class Person {
 
-        function falar() {
+        function speak() {
             echo "Olá!";
         }
 
     }
 
-    $isa = new Pessoa();
+    $isa = new Person();
 
     echo "<br>";
 
-    $isa->idade = 20;
+    $isa->age = 20;
 
     echo "<br>";
 
-    echo $isa->idade;
+    echo $isa->age;
 
     echo "<br>";
 
-    $isa->falar();
+    $isa->speak();
 
 ?>

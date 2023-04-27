@@ -1,13 +1,13 @@
 <?php
 
-    $usuario = ['id' => 194, 'nome' => 'Isabelly'];
+    $user = ['id' => 194, 'name' => 'Isabelly'];
 
-    print_r($usuario);
+    print_r($user);
 
     echo "<br>";
 
-    echo "id do usuário: $usuario[id]";
+    echo "id do usuário: $user[id]";
     echo "<br>";
-    echo "nome do usuário: $usuario[nome]";
+    echo "nome do usuário: $user[name]";
 
 ?>

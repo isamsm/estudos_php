@@ -1,14 +1,14 @@
 <?php
 
-$teste = 'teste';
+$test = 'teste';
 
-echo $teste;
+echo $test;
 echo '<br>';
 
-$nome = 'Isa';
-$idade = 20;
-$nacionalidade = 'Brasileira';
+$name = 'Isa';
+$age = 20;
+$nacionality = 'Brasileira';
 
-echo "Dados do usuário: <br> $nome <br> $idade <br> $nacionalidade";
+echo "Dados do usuário: <br> $name <br> $age <br> $nacionality";
 
 ?>

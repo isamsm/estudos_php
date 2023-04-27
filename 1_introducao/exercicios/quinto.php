@@ -6,10 +6,10 @@
     gosta de rolar na grama
     se chama lily */
 
-    $caracteristica1 = "é marrom";
-    $caracteristica2 = "gosta de rolar na grama";
-    $caracteristica3 = "se chama lily";
+    $first_char = "é marrom";
+    $second_char = "gosta de rolar na grama";
+    $third_char = "se chama lily";
 
-    echo $caracteristica1, "<br>", $caracteristica2, "<br>", $caracteristica3;
+    echo $first_char, "<br>", $second_char, "<br>", $third_char;
 
 ?>

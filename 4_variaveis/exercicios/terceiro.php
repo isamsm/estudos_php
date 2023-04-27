@@ -2,19 +2,19 @@
 
     //crie variáveis com os valores. crie variáveis para cada operação. cada operação vai depender do resultado da anterior
 
-    $n1 = 15;
-    $n2 = 30;
-    $n3 = 12;
-    $n4 = 16;
-    $n5 = 5;
+    $first_num = 15;
+    $second_num = 30;
+    $third_num = 12;
+    $fourth_num = 16;
+    $fifth_num = 5;
 
-    $soma = $n1 + $n2;
-    echo '15 + 30 = ', $soma, '<br>';
-    $sub = $soma - $n3;
+    $add = $first_num + $second_num;
+    echo '15 + 30 = ', $add, '<br>';
+    $sub = $add - $third_num;
     echo '45 - 12 = ', $sub, '<br>';
-    $multi = $sub * $n4;
+    $multi = $sub * $fourth_num;
     echo '33 * 16 = ', $multi, '<br>';
-    $div = $multi / $n5;
+    $div = $multi / $fifth_num;
     echo '528 - 5 = ', $div, '<br>';
 
 ?>

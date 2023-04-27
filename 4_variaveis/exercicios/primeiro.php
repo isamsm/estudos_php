@@ -2,14 +2,14 @@
 
     //criar três variáveis com tipos de dados diferentes e imprimir
 
-    $nome = 'Isa';
-    $idade = 20;
-    $trabalhando = true;
+    $name = 'Isa';
+    $age = 20;
+    $working = true;
 
-    echo $nome;
+    echo $name;
     echo '<br>';
-    echo $idade;
+    echo $age;
     echo '<br>';
-    echo $trabalhando;
+    echo $working;
 
 ?>

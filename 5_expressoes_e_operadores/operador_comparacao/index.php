@@ -2,22 +2,22 @@
 
     echo 'Igualdade: <br>';
 
-    $n1 = 2;
-    $n2 = '2';
-    $n3 = 3;
-    $nome = 'Isa';
+    $first_num = 2;
+    $second_num = '2';
+    $third_num = 3;
+    $name = 'Isa';
 
-    if ($n1 == $n2) {
+    if ($first_num == $second_num) {
         echo "2 e '2' são iguais";
     }
 
-    if ($n1 == $n3) {
+    if ($first_num == $third_num) {
         echo '2 e 3 são iguais';
     }
 
     echo '<br>';
 
-    if ($nome === 'Isa') {
+    if ($name === 'Isa') {
         echo 'Acesso garantino. Bem vinda Isa!';
     }
 
@@ -27,15 +27,15 @@
 
     echo 'Idêntico: <br>';
 
-    $n1 = 4;
-    $n2 = '4';
-    $n3 = 4;
+    $first_num = 4;
+    $second_num = '4';
+    $third_num = 4;
 
-    if ($n1 === $n2) {
+    if ($first_num === $second_num) {
         echo "4 e '4' são idênticos";
     }
 
-    if ($n1 === $n3) {
+    if ($first_num === $third_num) {
         echo '4 e 4 são idênticos';
     }
 
@@ -45,15 +45,15 @@
 
     echo 'Diferente: <br>';
 
-    $n1 = 4;
-    $n2 = 3;
-    $n3 = 4;
+    $first_num = 4;
+    $second_num = 3;
+    $third_num = 4;
 
-    if ($n1 != $n2) {
+    if ($first_num != $second_num) {
         echo "4 e 3 são diferentes";
     }
 
-    if ($n1 != $n3) {
+    if ($first_num != $third_num) {
         echo '4 e 4 são diferentes';
     }
 
@@ -63,15 +63,15 @@
 
     echo 'Não idêntico: <br>';
 
-    $n1 = 4;
-    $n2 = '4';
-    $n3 = 4;
+    $first_num = 4;
+    $second_num = '4';
+    $third_num = 4;
 
-    if ($n1 !== $n2) {
+    if ($first_num !== $second_num) {
         echo "4 e '4' não são idênticos";
     }
 
-    if ($n1 !== $n3) {
+    if ($first_num !== $third_num) {
         echo '4 e 4 não são idênticos';
     }
 
@@ -81,14 +81,14 @@
 
     echo 'Maior: <br>';
 
-    $n1 = 2;
-    $n2 = 4;
+    $first_num = 2;
+    $second_num = 4;
 
-    if ($n2 > $n1) {
+    if ($second_num > $first_num) {
         echo '4 é maior que 2';
     }
 
-    if ($n1 > $n2) {
+    if ($first_num > $second_num) {
         echo '2 é maior que 4';
     }
 
@@ -98,15 +98,15 @@
 
     echo 'Maior ou igual: <br>';
 
-    $n1 = 2;
-    $n2 = 2;
-    $n3 = 4;
+    $first_num = 2;
+    $second_num = 2;
+    $third_num = 4;
 
-    if ($n2 >= $n1) {
+    if ($second_num >= $first_num) {
         echo '2 é maior ou igual a 2';
     }
 
-    if ($n1 >= $n3) {
+    if ($first_num >= $third_num) {
         echo '2 é maior ou igual a 4';
     }
 
@@ -116,14 +116,14 @@
     
     echo 'Menor: <br>';
 
-    $n1 = 2;
-    $n2 = 4;
+    $first_num = 2;
+    $second_num = 4;
 
-    if ($n1 < $n2) {
+    if ($first_num < $second_num) {
         echo '2 é menor que 4';
     }
 
-    if ($n2 < $n1) {
+    if ($second_num < $first_num) {
         echo '4 é menor que 2';
     }
 
@@ -133,15 +133,15 @@
 
     echo 'Menor ou igual: <br>';
 
-    $n1 = 2;
-    $n2 = 2;
-    $n3 = 4;
+    $first_num = 2;
+    $second_num = 2;
+    $third_num = 4;
 
-    if ($n2 <= $n1) {
+    if ($second_num <= $first_num) {
         echo '2 é menor ou igual a 2';
     }
 
-    if ($n3 <= $n1) {
+    if ($third_num <= $first_num) {
         echo '4 é menor ou igual a 2';
     }
 ?>

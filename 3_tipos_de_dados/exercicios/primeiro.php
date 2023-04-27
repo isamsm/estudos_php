@@ -4,10 +4,10 @@
 
     $string = '5';
     $n = 12;
-    $resultado = $string * $n;
+    $total = $string * $n;
 
-    echo "'5' * 12 = ", $resultado, "<br>";
+    echo "'5' * 12 = ", $total, "<br>";
 
-    echo gettype($resultado); //tipo de dado
+    echo gettype($total); //tipo de dado
 
 ?>

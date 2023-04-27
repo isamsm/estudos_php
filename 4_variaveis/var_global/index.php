@@ -1,24 +1,24 @@
 <?php
 
-    $n = 'Isa';
+    $name = 'Isa';
 
-    echo "global1: $n <br>";
+    echo "global1: $name <br>";
 
     if (10 > 5) {
-        $n = 'Ana';
-        echo "dentro de if: $n <br>";
+        $name = 'Ana';
+        echo "dentro de if: $name <br>";
     }
 
-    $n = 'Maria';
+    $name = 'Maria';
 
-    echo "global2: $n <br>";
+    echo "global2: $name <br>";
 
     function nGlobal() {
-        global $n;
+        global $name;
 
-        $n = 'Luiza';
+        $name = 'Luiza';
 
-        echo "função global: $n <br>";
+        echo "função global: $name <br>";
     }
 
     nGlobal();

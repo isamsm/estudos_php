@@ -8,9 +8,9 @@
 
     //variáveis -> são case sensitive
 
-    $nome = "Isa";
+    $name = "Isa";
 
-    echo $nome;
+    echo $name;
     "br"
-    // echo $NOME;
+    // echo $NAME;
 ?>

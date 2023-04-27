@@ -2,9 +2,9 @@
 
     //Else: se não. Executado se if der falso
 
-    $nome = 'Isa';
+    $name = 'Isa';
 
-    if($nome = 'Maria') {
+    if($name = 'Maria') {
         echo 'O nome é Maria';
     } else {
         echo 'O nome não é Maria';
@@ -20,7 +20,7 @@
 
     echo '<br>';
 
-    if($nome = 'Isa' && 5 > 7) {
+    if($name = 'Isa' && 5 > 7) {
         echo 'O nome é Isa e 5 é maior do que 7';
     } else {
         echo 'Uma ou mais verificações são falsas';
